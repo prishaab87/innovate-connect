@@ -1,4 +1,42 @@
 .navbar {
   display: flex;
+  justify-content: space-around;
   border: 2px solid black;
+}
+
+.navbar div h1 {
+  font-size: 0.8rem;
+}
+
+.navbar div {
+  /* border: 2px solid black; */
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.item {
+  display: flex;
+  padding: 3px;
+}
+.navbar div a {
+  text-decoration: none;
+  padding: 0 4px;
+  /* font-style: none; */
+  /* border: 2px solid black; */
+
+  /* padding: 32px 15px; */
+}
+
+.input {
+  height: 20px;
+
+  border-radius: 10px;
+}
+.image {
+  height: 2rem;
+}
+
+.image img {
+  height: 100%;
+  border-radius: 40px;
 }

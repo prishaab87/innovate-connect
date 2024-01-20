@@ -1,0 +1,17 @@
+.main {
+  width: 100vw;
+}
+
+.mainContent {
+  width: 100%;
+
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.sidebar {
+  width: 14rem;
+}
+.content {
+  width: 100%;
+}

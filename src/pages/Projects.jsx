@@ -1,10 +1,10 @@
 import React from "react";
 import ProjectList from "../component/ProjectList";
 
-export default function Projects() {
+export default function Projects(projects) {
   return (
     <div>
-      <ProjectList />
+      <ProjectList projects={projects} />
     </div>
   );
 }

@@ -1,0 +1,9 @@
+.keywords {
+  display: flex;
+  list-style-type: none;
+  padding: 10px;
+}
+
+.keywords li {
+  padding: 10px;
+}

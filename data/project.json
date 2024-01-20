@@ -4,22 +4,42 @@
       "id": 1,
       "name": "Printing Hub",
       "description": "To propose an innovative idea for smooth and efficient photo copy process for students and professors",
+      "teamMember": 2,
       "image": "https://i.pravatar.cc/100?",
       "owner": "Vani Kapoor",
-      "keywords": "Printing, Photocopy, Photocopying, Printing Hub, Printing Hub India, Printing Hub",
+      "upvotes": 43,
+      "keywords": [
+        "Printing",
+        "Photocopy",
+        "Photocopying",
+        "Printing Hub",
+        "Printing Hub India",
+        "Printing Hub"
+      ],
       "category": "Technology",
-      "techStack": "Web development"
+      "techStack": "Web development",
+      "status": "ongoing"
     },
     {
       "id": 2,
+      "teamMember": 2,
       "name": "Printing Hub",
       "description": "To propose an innovative idea for smooth and efficient photo copy process for students and professors",
       "image": "https://i.pravatar.cc/110?",
       "owner": "Puchu boy",
-      "keywords": "Printing, Photocopy, Photocopying, Printing Hub, Printing Hub India, Printing Hub",
+      "upvotes": 43,
+      "keywords": [
+        "Printing",
+        "Photocopy",
+        "Photocopying",
+        "Printing Hub",
+        "Printing Hub India",
+        "Printing Hub"
+      ],
       "category": "Technology",
 
-      "techStack": "Web development"
+      "techStack": "Web development",
+      "status": "ongoing"
     },
     {
       "id": 3,
@@ -27,21 +47,41 @@
       "description": "To propose an innovative idea for smooth and efficient photo copy process for students and professors",
       "image": "https://i.pravatar.cc/190?",
       "owner": "Shalini",
-      "keywords": "Printing, Photocopy, Photocopying, Printing Hub, Printing Hub India, Printing Hub",
+      "upvotes": 43,
+      "keywords": [
+        "Printing",
+        "Photocopy",
+        "Photocopying",
+        "Printing Hub",
+        "Printing Hub India",
+        "Printing Hub"
+      ],
       "category": "Technology",
 
-      "techStack": "Web development"
+      "teamMember": 2,
+      "techStack": "Web development",
+      "status": "ongoing"
     },
     {
       "id": 4,
-      "name": "Printing Hub",
+      "name": "the maximiser",
       "description": "To propose an innovative idea for smooth and efficient photo copy process for students and professors",
       "image": "https://i.pravatar.cc/107?",
       "owner": "Prisha badwick",
-      "keywords": "Printing, Photocopy, Photocopying, Printing Hub, Printing Hub India, Printing Hub",
+      "upvotes": 43,
+      "keywords": [
+        "Printing",
+        "Photocopy",
+        "Photocopying",
+        "Printing Hub",
+        "Printing Hub India",
+        "Printing Hub"
+      ],
       "category": "Technology",
+      "teamMember": 2,
 
-      "techStack": "Web development"
+      "techStack": "Web development",
+      "status": "completed"
     },
     {
       "id": 5,
@@ -49,21 +89,41 @@
       "description": "To propose an innovative idea for smooth and efficient photo copy process for students and professors",
       "image": "https://i.pravatar.cc/101?",
       "owner": "Aarzoo",
-      "keywords": "Printing, Photocopy, Photocopying, Printing Hub, Printing Hub India, Printing Hub",
+      "upvotes": 43,
+      "keywords": [
+        "Printing",
+        "Photocopy",
+        "Photocopying",
+        "Printing Hub",
+        "Printing Hub India",
+        "Printing Hub"
+      ],
       "category": "Technology",
 
-      "techStack": "Web development"
+      "teamMember": 2,
+      "techStack": "Web development",
+      "status": "completed"
     },
     {
       "id": 6,
-      "name": "Printing Hub",
+      "name": "Dancing Doll",
       "description": "To propose an innovative idea for smooth and efficient photo copy process for students and professors",
       "image": "https://i.pravatar.cc/113?",
       "owner": "ankur",
-      "keywords": "Printing, Photocopy, Photocopying, Printing Hub, Printing Hub India, Printing Hub",
+      "upvotes": 43,
+      "keywords": [
+        "Printing",
+        "Photocopy",
+        "Photocopying",
+        "Printing Hub",
+        "Printing Hub India",
+        "Printing Hub"
+      ],
       "category": "Technology",
 
-      "techStack": "Web development"
+      "teamMember": 2,
+      "techStack": "Web development",
+      "status": "completed"
     },
     {
       "id": 7,
@@ -71,10 +131,147 @@
       "description": "To propose an innovative idea for smooth and efficient photo copy process for students and professors ",
       "image": "https://i.pravatar.cc/150?",
       "owner": "Jiya",
-      "keywords": "Printing, Photocopy, Photocopying, Printing Hub, Printing Hub India, Printing Hub",
+      "upvotes": 43,
+      "keywords": [
+        "Printing",
+        "Photocopy",
+        "Photocopying",
+        "Printing Hub",
+        "Printing Hub India",
+        "Printing Hub"
+      ],
       "category": "Technology",
 
-      "techStack": "Web development"
+      "teamMember": 2,
+      "techStack": "Web development",
+      "status": "completed"
+    },
+    {
+      "id": 8,
+      "name": "Project connector ",
+      "description": "To propose an innovative idea for smooth and efficient photo copy process for students and professors ",
+      "image": "https://i.pravatar.cc/150?",
+      "owner": "Jiya",
+      "upvotes": 43,
+      "keywords": [
+        "Printing",
+        "Photocopy",
+        "Photocopying",
+        "Printing Hub",
+        "Printing Hub India",
+        "Printing Hub"
+      ],
+      "category": "Technology",
+
+      "teamMember": 2,
+
+      "techStack": "Web development",
+      "status": "ongoing"
+    }
+  ],
+  "Developers": [
+    {
+      "id": 121,
+      "name": "Rinku Tiwari",
+      "image": "https://i.pravatar.cc/111?",
+      "description": " I am proud coder who loves to develop around my free time, it makes me feel very creative",
+      "profession": "student",
+
+      "starredProjects": [
+        {
+          "project_id": 7,
+          "ProjectName": "Printing Hub",
+          "owner": "Jiya",
+          "upvotes": 43,
+
+          "status": "Completed",
+          "keywords": [
+            "Printing",
+            "Photocopy",
+            "Photocopying",
+            "Printing Hub",
+            "Printing Hub India",
+            "Printing Hub"
+          ]
+        },
+        {
+          "project_id": 5,
+          "ProjectName": "Dancing Doll",
+          "status": "Completed",
+          "owner": "Jiya",
+          "upvotes": 43,
+          "keywords": [
+            "Printing",
+            "Photocopy",
+            "Photocopying",
+            "Printing Hub",
+            "Printing Hub India",
+            "Printing Hub"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "name": "Jiya Choubey",
+      "image": "https://i.pravatar.cc/111?",
+      "description": " A writer who loves to code and develop. ",
+      "profession": "student",
+      "current_project": [
+        {
+          "project_id": 8,
+          "projectName": "Project connector ",
+          "teamMember": 2,
+          "status": "Ongoing",
+          "upvotes": 43,
+          "keywords": [
+            "Printing",
+            "Photocopy",
+            "Photocopying",
+            "Printing Hub",
+            "Printing Hub India",
+            "Printing Hub"
+          ]
+        }
+      ],
+      "starredProjects": [
+        {
+          "project_id": 4,
+          "projectName": "the maximiser",
+          "owner": "Jiya",
+          "upvotes": 43,
+          "status": "completed",
+          "keywords": [
+            "Printing",
+            "Photocopy",
+            "Photocopying",
+            "Printing Hub",
+            "Printing Hub India",
+            "Printing Hub"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 0,
+      "name": "Aarzoo Gupta",
+      "image": "https://i.pravatar.cc/111?",
+      "description": " Sophomore. passion. enginnering. problem solving. ",
+      "profession": "student"
+    }
+  ],
+  "Login": [
+    {
+      "user_id": 121,
+      "password": "rinku123"
+    },
+    {
+      "user_id": 122,
+      "password": "jiya123"
+    },
+    {
+      "user_id": 0,
+      "password": "Aarzoo123"
     }
   ]
 }

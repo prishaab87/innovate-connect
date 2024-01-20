@@ -1,29 +1,32 @@
 import React from "react";
-
-export default function HomeContent() {
+import styles from "./HomeContent.module.css";
+import { Link } from "react-router-dom";
+export default function HomeContent({ image, data }) {
   return (
-    <div className="content">
-      <h2>Welcome to Project Connect</h2>
-      <h3>Your Profile</h3>
-      <div className="profile">
-        <img src="" alt="hey" />
-        <form>
+    <div className={styles.content}>
+      <div className="content">
+        <div className={styles.image}>
+          <img src={image} alt="hey" />
+        </div>
+        <div className={styles.detail}>
           <div>
-            <label for="itemName">Name</label>
-
-            <input type="text" className="itemName" name="itemName" required />
+            <h3>{data.name}</h3>
           </div>
           <div>
-            <label for="description">About </label>
-            <textarea
-              className="description"
-              name="description"
-              rows="4"
-              required
-            ></textarea>
+            <p>{data.description}</p>
           </div>
-        </form>
+          <div>
+            <p>{data.profession}</p>
+          </div>
+        </div>
+        <div className={styles.AddProject}>
+          <Link>
+            <div className="icon">{/* {%ICON%} */} i</div>
+            <h3>Add your Project</h3>
+          </Link>
+        </div>
       </div>
     </div>
+    // </div>
   );
 }

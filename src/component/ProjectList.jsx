@@ -1,25 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ProjectItem from "./ProjectItem";
-const BASE_URL = "http://localhost:1000";
 
-export default function ProjectList() {
-  const [projects, SetProjects] = useState();
-  useEffect(
-    function () {
-      async function fetchProjects() {
-        try {
-          const res = await fetch(`${BASE_URL}/project`);
-          const data = await res.json();
-          console.log(data);
-          SetProjects(data);
-        } catch {
-          console.log("error faced");
-        }
-      }
-      fetchProjects();
-    },
-    [SetProjects]
-  );
+export default function ProjectList(projects) {
   if (!projects) {
     return <div>Loding data</div>;
   }
