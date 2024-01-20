@@ -1,0 +1,80 @@
+{
+  "project": [
+    {
+      "id": 1,
+      "name": "Printing Hub",
+      "description": "To propose an innovative idea for smooth and efficient photo copy process for students and professors",
+      "image": "https://i.pravatar.cc/100?",
+      "owner": "Vani Kapoor",
+      "keywords": "Printing, Photocopy, Photocopying, Printing Hub, Printing Hub India, Printing Hub",
+      "category": "Technology",
+      "techStack": "Web development"
+    },
+    {
+      "id": 2,
+      "name": "Printing Hub",
+      "description": "To propose an innovative idea for smooth and efficient photo copy process for students and professors",
+      "image": "https://i.pravatar.cc/110?",
+      "owner": "Puchu boy",
+      "keywords": "Printing, Photocopy, Photocopying, Printing Hub, Printing Hub India, Printing Hub",
+      "category": "Technology",
+
+      "techStack": "Web development"
+    },
+    {
+      "id": 3,
+      "name": "Printing Hub",
+      "description": "To propose an innovative idea for smooth and efficient photo copy process for students and professors",
+      "image": "https://i.pravatar.cc/190?",
+      "owner": "Shalini",
+      "keywords": "Printing, Photocopy, Photocopying, Printing Hub, Printing Hub India, Printing Hub",
+      "category": "Technology",
+
+      "techStack": "Web development"
+    },
+    {
+      "id": 4,
+      "name": "Printing Hub",
+      "description": "To propose an innovative idea for smooth and efficient photo copy process for students and professors",
+      "image": "https://i.pravatar.cc/107?",
+      "owner": "Prisha badwick",
+      "keywords": "Printing, Photocopy, Photocopying, Printing Hub, Printing Hub India, Printing Hub",
+      "category": "Technology",
+
+      "techStack": "Web development"
+    },
+    {
+      "id": 5,
+      "name": "Printing Hub",
+      "description": "To propose an innovative idea for smooth and efficient photo copy process for students and professors",
+      "image": "https://i.pravatar.cc/101?",
+      "owner": "Aarzoo",
+      "keywords": "Printing, Photocopy, Photocopying, Printing Hub, Printing Hub India, Printing Hub",
+      "category": "Technology",
+
+      "techStack": "Web development"
+    },
+    {
+      "id": 6,
+      "name": "Printing Hub",
+      "description": "To propose an innovative idea for smooth and efficient photo copy process for students and professors",
+      "image": "https://i.pravatar.cc/113?",
+      "owner": "ankur",
+      "keywords": "Printing, Photocopy, Photocopying, Printing Hub, Printing Hub India, Printing Hub",
+      "category": "Technology",
+
+      "techStack": "Web development"
+    },
+    {
+      "id": 7,
+      "name": "Printing Hub",
+      "description": "To propose an innovative idea for smooth and efficient photo copy process for students and professors ",
+      "image": "https://i.pravatar.cc/150?",
+      "owner": "Jiya",
+      "keywords": "Printing, Photocopy, Photocopying, Printing Hub, Printing Hub India, Printing Hub",
+      "category": "Technology",
+
+      "techStack": "Web development"
+    }
+  ]
+}

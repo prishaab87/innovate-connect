@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Connect</title>
+    <style>
+        body {
+            border: 2px solid black;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #020735;
+            /* Updated background color */
+        }
+
+        header {
+            border: 2px solid red;
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            width: 100%;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header {
+            border: 2px solid red;
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        #content {
+            border: 2px solid red;
+            margin-left: 250px;
+            padding: 16px;
+        }
+
+        hr {
+            border: white 10px;
+            border-bottom: none;
+            width: 5%;
+            margin: 100px auto;
+        }
+
+        .sidebar {
+            width: 200px;
+            position: fixed;
+            height: 100%;
+            background-color: #f4f4f4;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sidebar ul li {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+            cursor: pointer;
+        }
+
+        .dp-image {
+            border-radius: 100%;
+            width: 15%;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .box {
+            width: 45%;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 10px;
+            box-sizing: border-box;
+        }
+
+        .box h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        .project-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .project-box {
+            width: 30%;
+            /* Adjust the width as needed */
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 10px;
+            box-sizing: border-box;
+        }
+
+        .project-box h3 {
+            text-align: center;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Project Connect</h1>
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#analytics">Analytics</a>
+        <a href="#settings">Settings</a>
+    </header>
+    <div class="sidebar">
+        <ul>
+            <li>My Profile</li>
+            <li>Personal Details</li>
+            <li>Project Descriptions</li>
+            <li>Project Gallery</li>
+            <li>Project Wishlist</li>
+            <li>Blogs</li>
+            <li>Friends</li>
+        </ul>
+        <ul>
+            <li>FAQ</li>
+            <li>Testimonials</li>
+        </ul>
+        <ul>
+            <li>Terms and Conditions</li>
+            <li>Privacy Policy</li>
+        </ul>
+    </div>
+    <div id="content">
+        <h2>Welcome to Project Connect</h2>
+        <h3>Your Profile</h3>
+        <div id="profile">
+            <img class="dp-image" src="shalini.jpg" alt="profile-image">
+            <form>
+                <center>
+                    <label for="itemName">Name</label>
+                    <br>
+                    <input type="text" id="itemName" name="itemName" required>
+                </center>
+                <br>
+                </center>
+                <label for="description">About </label>
+                <br>
+                <textarea id="description" name="description" rows="4" required></textarea>
+                </center>
+                <br>
+            </form>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="box">
+            <h2>My Projects</h2>
+            <div class="project-container">
+                <div class="project-box">
+                    <h3>Project 1</h3>
+                    <p>Project description goes here...</p>
+                </div>
+                <div class="project-box">
+                    <h3>Project 2</h3>
+                    <p>Project description goes here...</p>
+                </div>
+                <div class="project-box">
+                    <h3>Project 3</h3>
+                    <p>Project description goes here...</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <h2>Stared Projects</h2>
+        </div>
+    </div>
+
+</body>
+
+</html>
